@@ -2,7 +2,7 @@
 
 const Contact=()=>{
     return(
-        <div className="contact section" id="contact">
+        <section className="contact section" id="contact">
             <div className="contact__container grid">
                 <div className="contact__data">
                     <h2 className="section__title-2">
@@ -56,7 +56,7 @@ const Contact=()=>{
                     </form>
                 </div>
             </div>
-        </div>  
+        </section>  
     );     
 }
 export default Contact;

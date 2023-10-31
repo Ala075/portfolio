@@ -2,7 +2,7 @@
 
 const Home=()=>{
     return(
-        <div className="home section" id="home">
+        <section className="home section" id="home">
             <div className="home__container container grid">
                 <h2 className="home__name">
                     Home page
@@ -46,7 +46,7 @@ const Home=()=>{
                     </a>
                  </div>
             </div>
-         </div>
+         </section>
     );
 }
 export default Home;

@@ -2,7 +2,7 @@
 
 const Projects=()=>{
     return(
-        <div className="projects section" id="projects">
+        <section className="projects section" id="projects">
             <h2 className="section__title-1">
                  <span>Projects.</span>
              </h2>
@@ -163,7 +163,7 @@ const Projects=()=>{
                     </div>
                  </div>
              </div>
-         </div>
+         </section>
     )
 }
 export default Projects

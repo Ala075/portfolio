@@ -3,7 +3,7 @@
 const Services=()=>{
     return(
     <>
-        <div className="services section">
+        <section className="services section">
              <h2 className="section__title-2">
                  <span>Services.</span>
              </h2>
@@ -57,7 +57,8 @@ const Services=()=>{
                     </div>
                 </div>
             </div>
-         </div></>
+         </section>
+      </>
     )
 }
 export default Services 

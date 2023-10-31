@@ -2,7 +2,7 @@
 
 const About=()=>{
     return(
-        <div className="about section" id="about">
+        <section className="about section" id="about">
              <div className="about container" id="about">
                  <div className="about__container container grid">
                      <h2 className="section__title-1">
@@ -10,7 +10,7 @@ const About=()=>{
                      </h2>
                      <div className="about__perfil">
                          <div className="about__image">
-                             <img src="src/assets/Picsart_2.jpg" alt="" className="about__img"/>
+                             <img src="src/assets/profile-pic (5).png" alt="" className="about__img"/>
                          </div>
                          <div className="about__shadow">
                          </div>
@@ -48,7 +48,7 @@ MongoDB, Express, React Js, Node Js, Tailwind, Git & GitHub.
                      </div>
                  </div>  
              </div>
-         </div>
+         </section>
     );
 }
 export default About;
