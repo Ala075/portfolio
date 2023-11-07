@@ -9,14 +9,14 @@ const Home=()=>{
                 </h2>
             <div className="home__perfil">
                 <div className="home__image">
-                    <img src="/src/assets/Picsart_2.jpg" alt="image" className="home__img"/>
+                    <img src="../../assets/Picsart_2.jpg" alt="image" className="home__img"/>
                     
                     <div className="home__shadow">
                     </div>
                     
-                    <img src="src/assets/curved-arrow.svg" alt="" className="home__arrow"/>
+                    <img src="../../assets/curved-arrow.svg" alt="" className="home__arrow"/>
                                     
-                    <img src="src/assets/random-lines.svg" alt="" className="home__line"/>
+                    <img src="../../assets/random-lines.svg" alt="" className="home__line"/>
                     <div className="geometric-box"></div>
 
                 </div>

@@ -18,7 +18,7 @@
     ],
     "projects": [
         {
-            "image": "../src/assets/project-3.jpg",
+            "image": "../../assets/project-3.jpg",
             "subtitle": "Website",
             "title": "E-Shop Website",
             "description": "Developed a comprehensive e-commerce platform using the ME-RN stack. The website integrates user-friendly interfaces for easy navigation and a secure payment gateway.",
@@ -28,7 +28,7 @@
             }
         },
         {
-            "image": "../src/assets/project-1.jpg",
+            "image": "../../assets/project-1.jpg",
             "subtitle": "Website",
             "title": "Travel Website",
             "description": "Created an interactive travel website with the ME-RN stack. Implemented features that allow users to explore various travel destinations with rich content and easy-to-use functionalities.",
@@ -38,7 +38,7 @@
             }
         },
         {
-            "image": "../src/assets/project-3.jpg",
+            "image": "../../assets/project-3.jpg",
             "subtitle": "App",
             "title": "Application",
             "description": "Developed an innovative application using Kotlin in Android Studio. The app showcases a user-friendly interface and unique functionalities tailored to enhance user experiences.",
@@ -48,7 +48,7 @@
             }
         },
         {
-            "image": "../src/assets/project-2.jpg",
+            "image": "../../assets/project-2.jpg",
             "subtitle": "Website",
             "title": "Personal Portfolio",
             "description": "Designed and developed a personal portfolio showcasing various skills using React.js. Integrated various sections for projects, skills, and information about myself.",
