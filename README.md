@@ -23,6 +23,6 @@ This portfolio serves as a demonstration of web development skills, projects, an
 For any inquiries, feedback, or discussions related to this project, you can reach out to me via email or connect on various social platforms:
 
 - **Email:** [ala.arfaoui751@gmail.com](mailto:ala.arfaoui751@gmail.com)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername/)
+- **LinkedIn:** [Ala Arfaoui]([https://www.linkedin.com/in/ala-arfaoui-9a69ab225])
 - **Personal Website:** [Ala Arfaoui](https://alaarfaoui.vercel.app/)
 
