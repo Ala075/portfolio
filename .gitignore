@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 data/
-.assets/
+src/assets/
