@@ -1,6 +1,6 @@
 # Portfolio - React Js
 
-This repository houses a portfolio website built with React.js, Vite, and TypeScript (tsx). It showcases my projects, skills, and experience. The live version of this portfolio can be accessed [here](https://alaarfaoui.vercel.app).
+This repository houses a portfolio website built with React Js. It showcases my projects, skills, and experience. The live version of this portfolio can be accessed [here](https://alaarfaoui.vercel.app).
 
 ## Table of Contents
 - [Overview](#overview)
@@ -23,6 +23,6 @@ This portfolio serves as a demonstration of web development skills, projects, an
 For any inquiries, feedback, or discussions related to this project, you can reach out to me via email or connect on various social platforms:
 
 - **Email:** [ala.arfaoui751@gmail.com](mailto:ala.arfaoui751@gmail.com)
-- **LinkedIn:** [Ala Arfaoui]([https://www.linkedin.com/in/ala-arfaoui-9a69ab225])
+- **LinkedIn:** [Ala Arfaoui](https://www.linkedin.com/in/ala-arfaoui-9a69ab225)
 - **Personal Website:** [Ala Arfaoui](https://alaarfaoui.vercel.app/)
 
