@@ -29,7 +29,8 @@ const Header = () => {
             sections.forEach(section => {
                 const rect = section.getBoundingClientRect();
                 if (rect.top <= 58 && rect.bottom > 58) {
-                    setActiveSection(section.id);
+                  setActiveSection(section.id);
+                    setMenuVisibility(false);
                 }
             });
         };

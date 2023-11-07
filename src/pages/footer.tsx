@@ -1,4 +1,14 @@
+import styled, { keyframes } from 'styled-components';
 
+const scroll = keyframes`
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+`;
+
+const Marquee = styled.div`
+    white-space: nowrap;
+    animation: ${scroll} 10s linear infinite;
+`;
 
 const Footer=()=>{
     return(
@@ -48,11 +58,11 @@ const Footer=()=>{
         
             <div className="copyright">
                 <p>
-                    <div className="marquee">
+                    <Marquee>
                         2023 <i className="fa-regular fa-copyright">  
                         </i>
                         Copyright | All right reserved .
-                    </div>
+                    </Marquee>
                 </p>
             </div>
         </div>

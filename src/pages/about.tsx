@@ -10,7 +10,7 @@ const About=()=>{
                      </h2>
                      <div className="about__perfil">
                          <div className="about__image">
-                             <img src="src/assets/profile-pic (5).png" alt="" className="about__img"/>
+                             <img src="src/assets/profile-pic (5).png" alt="" className="about__img" loading="lazy"/>
                          </div>
                          <div className="about__shadow">
                          </div>

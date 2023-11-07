@@ -39,13 +39,9 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
-  
+}  
   input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
   -webkit-text-fill-color: transparent ;
-}
-  
-  
-  
 }
 
 /*========== Responsive typography ==========*/
@@ -153,6 +149,9 @@ body.dark-theme{
 }
 .dark-theme .footer{
     background-color: hsl(0,0%,4%);
+}
+.dark-theme .nav__logo{
+    color: var(--first-color);
 }
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -267,6 +266,7 @@ body.dark-theme{
 @media (max-width:1024px){ 
     .nav__menu{
         position: fixed;
+        z-index: 1000;
         top: -100%;
         left: 0;
         background-color: hsla(0, 0%, 0%, .75);
@@ -946,10 +946,7 @@ border: 4px solid var(--black-color);
     border-top: 1px solid var(--text-color-light);
     margin-top: 35px;
     padding-top: 5px;
-}
-.marquee{
-    whiteSpace: 'nowrap';
-    animation: 'scrollText 10s linear infinite';
+    overflow: hidden;
 }
 @keyframes scrollText {
     0% {
