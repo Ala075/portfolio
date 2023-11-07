@@ -14,7 +14,7 @@ This repository houses a portfolio website built with React Js. It showcases my 
 
 ## Overview
 
-This portfolio serves as a demonstration of web development skills, projects, and experience using React.js, Vite, and TypeScript (tsx).
+This portfolio serves as a demonstration of web development skills, projects, and experience using React Js .
 
 ## Features
 
