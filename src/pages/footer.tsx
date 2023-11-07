@@ -44,11 +44,11 @@ const Footer=()=>{
                                 <i className="ri-instagram-line"></i>
                             </a>
                             
-                            <a href="" target="_blank" className="contact__social-link">
+                            <a href="https://www.facebook.com/ala.arfaoui.751" target="_blank" className="contact__social-link">
                                 <i className="ri-facebook-box-line"></i>
                             </a>
                             
-                            <a href="" target="_blank" className="contact__social-link">
+                            <a href="https://www.linkedin.com/in/ala-arfaoui-9a69ab225" target="_blank" className="contact__social-link">
                                 <i className="ri-linkedin-box-line"></i>
                             </a>   
                         </div>
