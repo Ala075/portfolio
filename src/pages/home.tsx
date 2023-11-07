@@ -9,7 +9,7 @@ const Home=()=>{
                 </h2>
             <div className="home__perfil">
                 <div className="home__image">
-                    <img src="src/assets/Picsart_2.jpg" alt="image" className="home__img" loading="lazy"/>
+                    <img src="./assets/Picsart_2.jpg" alt="image" className="home__img"/>
                     
                     <div className="home__shadow">
                     </div>
