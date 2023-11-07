@@ -5,7 +5,7 @@ This repository houses a portfolio website built with React Js. It showcases my 
 # Hi there! 👋 I'm Ala Arfaoui
 
 <!-- Visitor Counter -->
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ala075.portfolio)
+![Visits](https://badges.pufler.dev/visits/Ala075/portfolio)
 
 ## Table of Contents
 - [Overview](#overview)
