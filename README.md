@@ -2,7 +2,7 @@
 
 This repository houses a portfolio website built with React Js. It showcases my projects, skills, and experience. The live version of this portfolio can be accessed [here](https://alaarfaoui.vercel.app).
 
-# Hi there! 👋 I'm [Your Name]
+# Hi there! 👋 I'm Ala Arfaoui
 
 <!-- Visitor Counter -->
 ![Visitors](https://visitor-badge.glitch.me/badge?page_id=Ala075.portfolio)
