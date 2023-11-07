@@ -1,27 +1,28 @@
-# React + TypeScript + Vite
+# Portfolio - React Js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository houses a portfolio website built with React.js, Vite, and TypeScript (tsx). It showcases my projects, skills, and experience. The live version of this portfolio can be accessed [here](https://alaarfaoui.vercel.app).
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## Expanding the ESLint configuration
+This portfolio serves as a demonstration of web development skills, projects, and experience using React.js, Vite, and TypeScript (tsx).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Project Display:** Showcase projects and their details.
+- **Skill & Experience:** Highlight skills and experience in web development.
+- **Contact Information:** Provide contact details and links to social platforms.
+- **Responsive Design:** Ensure responsiveness for various devices.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Contact
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+For any inquiries, feedback, or discussions related to this project, you can reach out to me via email or connect on various social platforms:
+
+- **Email:** [ala.arfaoui751@gmail.com](mailto:ala.arfaoui751@gmail.com)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourusername/)
+- **Personal Website:** [Ala Arfaoui](https://alaarfaoui.vercel.app/)
+
