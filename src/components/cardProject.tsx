@@ -16,7 +16,7 @@ function Card({ image, subtitle, title, description, links }: CardProps){
     return(
         <div className="projects__card">
               <div className="projects__image">
-                  <img src={image} alt="image" className="projects__img" />
+                  <img src={image} alt="image" className="projects__img" loading="lazy" />
                    <a href="https://www.alaarfaoui.vercel.app" className="projects__button button">
                        <i className="ri-arrow-right-up-line"></i>
                     </a>
