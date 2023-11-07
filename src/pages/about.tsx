@@ -41,7 +41,7 @@ MongoDB, Express, React Js, Node Js, Tailwind, Git & GitHub.
                              <a href="#contact" className="button">
                                  <i className="ri-send-plane-line"></i>Contact Me
                              </a>
-                             <a href="https://www.linkedin.com/in/ala-arfaoui" target="_blank" className="button__ghost">
+                             <a href="https://www.linkedin.com/in/ala-arfaoui-9a69ab225" target="_blank" className="button__ghost">
                                  <i className="ri-linkedin-box-line"></i>
                              </a>
                          </div>

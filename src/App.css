@@ -3,6 +3,8 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
+
+  
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
@@ -37,6 +39,13 @@
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
+  
+  input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+  -webkit-text-fill-color: transparent ;
+}
+  
+  
+  
 }
 
 /*========== Responsive typography ==========*/
@@ -804,7 +813,7 @@ border: 4px solid var(--black-color);
 .contact__input:focus{
     border: 3px solid var(--white-color);
 }
-.contact__input::-webkit-autofill{
+.contact__input::auto-fill{
     transition: background-color 6000s,color 6000s;
 }
 .contact__label{
@@ -926,7 +935,7 @@ border: 4px solid var(--black-color);
     color: var(--white-color);
     font-size: 1.75rem;
     display: grid;
-    pace-items:center;
+    place-items:center;
     transition: background-color .4s;
 }
 .contact__social-link:hover{
@@ -937,6 +946,18 @@ border: 4px solid var(--black-color);
     border-top: 1px solid var(--text-color-light);
     margin-top: 35px;
     padding-top: 5px;
+}
+.marquee{
+    whiteSpace: 'nowrap';
+    animation: 'scrollText 10s linear infinite';
+}
+@keyframes scrollText {
+    0% {
+       transform: translateX(100%);
+       }
+    100% {
+       transform: translateX(-100%);
+       }
 }
 @media(max-width:767px){
     .footer{

@@ -1,7 +1,20 @@
-.function Card({ image, subtitle, title, description, links }){
+
+interface CardProps {
+    image: string;
+    subtitle: string ;
+    title: string;
+    description: string;
+    links: { 
+        github: string; 
+        github2: string; 
+    };
+}
+
+
+function Card({ image, subtitle, title, description, links }: CardProps){
 
     return(
-        <>
+        <div className="projects__card">
               <div className="projects__image">
                   <img src={image} alt="image" className="projects__img"/>
                    <a href="#" className="projects__button button">
@@ -31,7 +44,7 @@
                       <i className="ri-github-line"></i>View
                   </a>
             </div>
-        </>
+        </div>
     );
 }
 export default Card;

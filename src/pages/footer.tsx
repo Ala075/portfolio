@@ -48,11 +48,11 @@ const Footer=()=>{
         
             <div className="copyright">
                 <p>
-                    <marquee>
+                    <div className="marquee">
                         2023 <i className="fa-regular fa-copyright">  
                         </i>
                         Copyright | All right reserved .
-                    </marquee>
+                    </div>
                 </p>
             </div>
         </div>

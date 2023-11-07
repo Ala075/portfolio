@@ -21,7 +21,7 @@ const Home=()=>{
 
                 </div>
                 <div className="home__social">
-                    <a href="https://instagram.com/black75g" target="_blank" className="home__social-link">
+                    <a href="https://instagram.com/" target="_blank" className="home__social-link">
                          <i className="ri-instagram-line"></i> 
                     </a>
                     <a href="https://www.linkedin.com/in/ala-arfaoui-9a69ab225" target="_blank" className="home__social-link">

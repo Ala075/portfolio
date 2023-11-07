@@ -1,7 +1,14 @@
-function Card({ icon, title, description}){
 
+interface CardProps {
+    icon: string;
+    title: string;
+    description: string;
+}
+
+
+function Card({ icon, title, description}: CardProps){
     return(
-        <>
+        <div className="services__card">
             <div className="services__border"></div>
                     
             <div className="services__content">
@@ -18,7 +25,7 @@ function Card({ icon, title, description}){
                     {description}
                 </p>
             </div>
-        </>
+        </div>
     );
 }
 export default Card;
