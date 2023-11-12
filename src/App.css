@@ -230,6 +230,22 @@ body.dark-theme{
     z-index: var(--z-fixed);
     transition: box-shadow .4s, background-color .4s;
 }
+.background-overlay { 
+    position: absolute; 
+    height: 100vmax; 
+    width: 100%; 
+    background-color: black; 
+    clip-path: circle(0% at 82.5% 3.2%);
+    transition: clip-path 0.4s ease-in-out, background-color 0.3s ease-in-out, opacity 0.2s ease-in-out;
+    z-index: 0; 
+    pointer-events: none; 
+    opacity: 1; 
+}
+body.dark-theme .header .background-overlay{ 
+    clip-path: circle(141% at 50% 50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0; 
+}
 .nav{
     position: relative;
     display: flex;

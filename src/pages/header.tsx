@@ -52,6 +52,7 @@ const Header = () => {
 
     return (
         <div className={`header ${selectedTheme === 'dark' ? 'dark-theme' : ''}`} id="header">
+            <div class="background-overlay"></div>
             <div className="nav container">
                 <a href="#" className="nav__logo">
                     <span className="nav__logo-circle">AA</span>
