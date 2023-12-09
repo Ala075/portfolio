@@ -40,7 +40,7 @@ const Footer=()=>{
                         </div>
                         
                         <div className="contact__social-links">
-                            <a href="" target="_blank" className="contact__social-link">
+                            <a href="https://instagram.com/arfaoui_ala75" target="_blank" className="contact__social-link">
                                 <i className="ri-instagram-line"></i>
                             </a>
                             
