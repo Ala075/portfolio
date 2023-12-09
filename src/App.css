@@ -41,7 +41,7 @@
   --z-fixed: 100;
 }  
   input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, textarea:-webkit-autofill:hover, textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
-  -webkit-text-fill-color: transparent ;
+  -webkit-text-fill-color: var(--first-color) ;
 }
 
 /*========== Responsive typography ==========*/
@@ -75,7 +75,10 @@ body {
   color: var(--text-color);
   transition: background-color .4s;
 }
-
+::selection{
+    color: white;
+    background-color: var(--first-color);
+}
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-bold);
@@ -377,8 +380,8 @@ body.dark-theme .header .background-overlay{
 }
 .home__image{ 
     width: 240px; 
+    position: relative;
 }
-
 .home__img{ 
     position: relative; 
     z-index: 10; 
@@ -522,6 +525,7 @@ border: 4px solid var(--black-color);
     color:black;
     padding: .5rem;
     transition: border .4s,color .4s,transform .4s;
+    transform: scale(1);
 }
 .button__ghost i{
     font-size: 1.25rem; 
@@ -546,6 +550,22 @@ border: 4px solid var(--black-color);
 }
 .about__image{
     width: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.about__image::before{
+    content: "";
+    position: absolute;
+    top: 0px; 
+    bottom: 0px;         
+    left: -45px; 
+    width: 10px; 
+    background-color: #fee;
+    z-index: 1000;
+}
+.about__image:hover::before{
+    left: calc(100% + 45px); 
+    transition: left 900ms;
 }
 .about__img{
     position: relative;

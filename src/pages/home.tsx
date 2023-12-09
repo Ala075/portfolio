@@ -20,6 +20,7 @@ const Home=()=>{
                     <div className="geometric-box"></div>
 
                 </div>
+                
                 <div className="home__social">
                     <a href="https://instagram.com/" target="_blank" className="home__social-link">
                          <i className="ri-instagram-line"></i> 
