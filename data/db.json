@@ -1,61 +1,51 @@
 {
-    "services":[
-        {
-            "icon":"ri-layout-4-line",
-            "title":"Web Design",
-            "description":"Beautiful and elegant designs with interfaces that are intuitive, efficient and pleasant  to use for the user."
-        },
-        {
-            "icon":"ri-code-box-line",
-            "title":"Developement Web",
-            "description":"Custom web development tailored to your specifications, designed to provide a flawless user experience."
-        },
-        {
-            "icon":"ri-smartphone-line",
-            "title":"Developement Mobile",
-            "description":"Design and transform website projects into mobile apps to provide a seamless user experience."
-        }
-    ],
-    "projects": [
-        {
-            "image": "../../assets/project-3.jpg",
-            "subtitle": "Website",
-            "title": "E-Shop Website",
-            "description": "Developed a comprehensive e-commerce platform using the MERN stack. The website integrates user-friendly interfaces for easy navigation and a secure payment gateway.",
-            "links": {
-                "github": "https://www.github.com/Ala075/eshop",
-                "github2": "https://www.github.com/Ala075/"
-            }
-        },
-        {
-            "image": "../../assets/project-1.jpg",
-            "subtitle": "Website",
-            "title": "Travel Website",
-            "description": "Created an interactive travel website with the MERN stack. Implemented features that allow users to explore various travel destinations with rich content and easy-to-use functionalities.",
-            "links": {
-                "github": "https://www.github.com/Ala075/travel",
-                "github2": "https://www.github.com/Ala075/"
-            }
-        },
-        {
-            "image": "../../assets/project-3.jpg",
-            "subtitle": "App",
-            "title": "Application",
-            "description": "Developed an innovative application using Kotlin in Android Studio. The app showcases a user-friendly interface and unique functionalities tailored to enhance user experiences.",
-            "links": {
-                "github": "https://www.github.com/Ala075/application",
-                "github2": "https://www.github.com/Ala075/"
-            }
-        },
-        {
-            "image": "../../assets/project-2.jpg",
-            "subtitle": "Website",
-            "title": "Personal Portfolio",
-            "description": "Designed and developed a personal portfolio showcasing various skills using React.js. Integrated various sections for projects, skills, and information about myself.",
-            "links": {
-                "github": "https://www.github.com/Ala075/portfolio",
-                "github2": "https://www.github.com/Ala075/"
-            }
-        }
-    ]
+  "services": [
+    {
+      "icon": "ri-layout-4-line",
+      "title": "Web Design",
+      "description": "Beautiful and elegant designs with interfaces that are intuitive, efficient and pleasant  to use for the user."
+    },
+    {
+      "icon": "ri-code-box-line",
+      "title": "Developement Web",
+      "description": "Custom web development tailored to your specifications, designed to provide a flawless user experience."
+    },
+    {
+      "icon": "ri-smartphone-line",
+      "title": "Developement Mobile",
+      "description": "Design and transform website projects into mobile apps to provide a seamless user experience."
+    }
+  ],
+  "projects": [
+    {
+      "image": "../../assets/project-3.jpg",
+      "subtitle": "Website",
+      "title": "E-commerce Website",
+      "description": "Developed a comprehensive e-commerce platform using the MERN stack. The website integrates user-friendly interfaces for easy navigation and a secure payment gateway.",
+      "links": {
+        "github": "https://www.github.com/Ala075/e-shop",
+        "github2": "https://www.github.com/Ala075/"
+      }
+    },
+    {
+      "image": "../../assets/project-1.jpg",
+      "subtitle": "Website",
+      "title": "Restaurant Management System",
+      "description": "Created a comprehensive restaurant management system including POS (Point of Sale) and KDS (Kitchen Display System). Developed an Electron-based client application with a web dashboard using React.js, and a robust backend with Node.js. Features include order management, inventory tracking, and real-time updates.",
+      "links": {
+        "github": "https://www.github.com/Ala075/foodini",
+        "github2": "https://www.github.com/Ala075/"
+      }
+    },
+    {
+      "image": "../../assets/project-3.jpg",
+      "subtitle": "App",
+      "title": "Grocery App and Website",
+      "description": "Developed a grocery shopping solution consisting of a mobile app using React Native and a website using React.js. Integrated backend services with Node.js, offering features such as product search, user authentication, order processing, and delivery tracking.",
+      "links": {
+        "github": "https://www.github.com/Ala075/application",
+        "github2": "https://www.github.com/Ala075/"
+      }
+    }
+  ]
 }
