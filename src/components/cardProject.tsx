@@ -11,7 +11,11 @@ interface CardProps {
 }
 
 
-function Card({ image, subtitle, title, description, links }: CardProps){
+function Card({ image, subtitle, title, description, links }: CardProps) {
+    
+    const displayShortDescription = () => {
+        return description.length > 100 ? description.substring(0, 100) + "..." : description;
+    }
 
     return(
         <div className="projects__card">
@@ -31,7 +35,7 @@ function Card({ image, subtitle, title, description, links }: CardProps){
                   </h2>
                         
                   <p className="projects__description">
-                      {description}
+                      {displayShortDescription()}
                   </p>
               </div>
               
