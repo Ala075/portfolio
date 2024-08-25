@@ -3,7 +3,8 @@ interface CardProps {
   subtitle: string;
   title: string;
   description: string;
-  links: {
+    links: {
+    website: string;
     github: string;
     github2: string;
   };
