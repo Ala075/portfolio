@@ -23,6 +23,7 @@
       "title": "E-commerce Website",
       "description": "Developed a comprehensive e-commerce platform using the MERN stack. The website integrates user-friendly interfaces for easy navigation and a secure payment gateway.",
       "links": {
+        "website": "https://e-shopppi.vercel.app/",
         "github": "https://www.github.com/Ala075/e-shop",
         "github2": "https://www.github.com/Ala075/"
       }
@@ -33,16 +34,18 @@
       "title": "Restaurant Management System",
       "description": "Created a comprehensive restaurant management system including POS (Point of Sale) and KDS (Kitchen Display System). Developed an Electron-based client application with a web dashboard using React.js, and a robust backend with Node.js. Features include order management, inventory tracking, and real-time updates.",
       "links": {
+        "website": "https://www.foodini.vercel.app/",
         "github": "https://www.github.com/Ala075/foodini",
         "github2": "https://www.github.com/Ala075/"
       }
     },
     {
-      "image": "../../assets/project-3.jpg",
-      "subtitle": "App",
+      "image": "../../assets/project-2.jpg",
+      "subtitle": "App & Website",
       "title": "Grocery App and Website",
       "description": "Developed a grocery shopping solution consisting of a mobile app using React Native and a website using React.js. Integrated backend services with Node.js, offering features such as product search, user authentication, order processing, and delivery tracking.",
       "links": {
+        "website": "https://www.example.com",
         "github": "https://www.github.com/Ala075/application",
         "github2": "https://www.github.com/Ala075/"
       }
